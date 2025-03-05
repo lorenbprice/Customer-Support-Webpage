@@ -1,0 +1,142 @@
+.topbanner {
+    background-color: rgb(48, 47, 78);
+    color: antiquewhite;
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    padding-right: 20px;
+    padding-left: 0;
+    height: 10px;
+}
+
+.logo {
+    border-radius: 12%;
+}
+.logotitle img {
+    padding-left: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.logoText h1 {
+    color: antiquewhite;
+    margin: 0%;
+}
+
+.logoText p {
+    color: #6e6b98;
+    margin: 0%;
+}
+
+.topbanner {
+    display: flex;
+    background-color: rgb(48, 47, 78);
+}
+
+.logotitle, .rightText {
+    background: rgb(48, 47, 78);
+    display: inline-flex;
+    
+}
+
+.banner {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgb(48, 47, 78);
+    color: #6e6b98;
+}
+
+.banner h1 {
+    color: antiquewhite;
+}
+
+.banner h3 {
+        background: -webkit-linear-gradient(top, #eee, #68647d);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+button {
+    background-color: #6e6b98;
+    color: antiquewhite;
+    border: 0;
+    padding: 10px;
+}
+
+header, nav, ul {
+    display: flex; 
+    /* list-style: none; */
+    gap: 15px;
+}
+
+.middle li {
+    display:flex ;
+}
+
+
+header nav ul li a {
+    margin-right: 50px;
+    color: #6e6b98;
+    text-decoration: none;
+    padding-left: 700;
+}
+
+.features {
+    background-color: rgb(219, 147, 85);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-inline: 0;
+}
+.features h2 {
+    color: antiquewhite;
+}
+
+.features h4 {
+    color: rgb(221, 219, 219);
+}
+
+.bottom {
+    color: #eee;
+    background-color:rgb(48, 47, 78);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+}
+
+.bottom button {
+    color: #eee;
+    background-color: #cf6514;
+    border-radius: 12%;
+}
+
+.bottom h3 {
+    background: -webkit-linear-gradient(top, #eee, #68647d);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.bottom li {
+    
+}
+
+.bottom li::marker {
+    color: #cf6514;
+}
+
+.footer {
+    color: rgb(48, 47, 78);
+    background-color: rgb(15, 14, 14);
+    margin: 0%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.footer img {
+    padding-left: 0;
+    width: 40px;
+    height: 40px;
+}
